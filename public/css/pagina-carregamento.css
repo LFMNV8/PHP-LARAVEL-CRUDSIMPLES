@@ -1,0 +1,61 @@
+body{
+    background-color:#E05D0B;
+}
+
+img{
+    
+    width: 10%;
+    height: 15%;
+    animation: spin 1s infinite;
+    position: absolute;
+    left: 44%;
+    top: 37%;
+    
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+@media screen and (max-width:1078px){
+
+    img{
+        width: 30%;
+        height: 30%;
+        left: 35%;
+        
+    }
+
+
+}
+
+
+@media screen and (max-width:500px){
+
+    img{
+        width: 30%;
+        height: 12%;
+        left: 35%;
+        top:45%;
+        
+    }
+
+
+}
+
+
+@media screen and (max-width:410px){
+
+    img{
+        width: 30%;
+        height: 12%;
+        left: 35%;
+        top: 45%;
+        
+    }
+
+
+}
+

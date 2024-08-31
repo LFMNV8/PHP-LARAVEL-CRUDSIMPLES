@@ -1,0 +1,35 @@
+#remover{
+    margin-left: 47.5%;
+    margin-top: 40%;
+    background-color: #E05D0B;
+    color: white;
+    border: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 50%;
+    
+    
+
+}
+
+#remover:hover{
+    opacity: 100%;
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+@media screen and (max-width:544px){
+
+    #remover{
+        
+
+        margin-top: 70%;
+        width: 19%;
+        right: 42.2%;
+
+        
+        
+    
+    }
+    
+}

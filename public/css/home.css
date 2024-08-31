@@ -1,0 +1,262 @@
+
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+header{
+    
+    background-color:  #E05D0B;
+    height: 80px;
+    box-shadow: 1px 1px 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 11vh;
+}
+
+a{
+    color:rgb(255, 255, 255);
+    opacity: 50%;
+    text-decoration: none;
+}
+
+a:hover{
+    transform: scale(1.1);
+    opacity: 100%;
+    text-decoration:solid;
+    
+    
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+#voltar{
+    width: 30px;
+    height: 30px;
+    border:4px solid #E05D0B;
+    border-radius: 22px;
+    position: absolute;
+    top:3.8%;
+    left: 28px;
+
+}
+
+#voltar:hover{
+    border: 4px solid white;
+    transform: scale(1.08);
+}
+
+@media screen and (max-width:800px){
+    .container{
+        flex-direction: column;
+        
+    }
+    header{
+        height: 200px;
+    }
+}
+@media screen and (min-width:1123px){
+
+    .container{
+        flex-direction: column;
+        
+    }
+
+    header{
+        height: 300px;
+    }
+    
+
+    a{
+        font-size: 32px;
+    }
+
+    
+    #voltar{
+        width: 3%;
+        height: 6%;
+    }
+    
+    button{
+        width: 10%;
+        height: 80px;
+        position: absolute;
+        right: 45%;
+        top: 20%;
+    }
+
+    tr{
+        font-size: 25px;
+        flex-direction: column;
+    }
+
+}
+
+
+@media screen and (max-width:1024px){
+    .container{
+        flex-direction: column;
+        
+    }
+    header{
+        height: 300px;
+    }
+    
+
+    a{
+        font-size: 32px;
+    }
+
+    
+    #voltar{
+        width: 3%;
+        height: 6%;
+    }
+    
+    button{
+        width: 10%;
+        height: 80px;
+        position: absolute;
+        right: 45%;
+        top: 20%;
+    }
+
+    tr{
+        font-size: 25px;
+        flex-direction: column;
+    }
+    
+}
+
+
+.conteudo__geral {
+    height: 100vh;
+    width: 100vw;
+    max-height: 800px;
+    max-width: 100px;
+    
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .elemento__interno-borda {
+    height: 300px;
+    width: 300px;
+    background: transparent;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    position: relative;
+  }
+  .elemento__interno-borda:hover {
+    border: 1px solid #fff;
+    height: 290px;
+    width: 290px;
+  }
+  .cartao {
+    height: 300px;
+    width: 300px;
+    background: #808080;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    background: #000;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .cartao0 {
+    background: url("https://i2-prod.mirror.co.uk/gaming/article30456858.ece/ALTERNATES/s1200d/0_EA-FC-24-gameplay.jpg--1--mdb0l.jpg?tr=w-1600,c-at_max")
+      center center no-repeat;
+    background-size: 300px;
+  }
+  .cartao0:hover {
+    background: url("https://i2-prod.mirror.co.uk/gaming/article30456858.ece/ALTERNATES/s1200d/0_EA-FC-24-gameplay.jpg--1--mdb0l.jpg?tr=w-1600,c-at_max")
+      left center no-repeat;
+    background-size: 600px;
+  }
+  .cartao0:hover h2 {
+    opacity: 1;
+  }
+  .cartao0:hover .fa {
+    opacity: 1;
+  }
+  .cartao1 {
+    background: url("https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/bltd31831eda9199937/62abc0df5cbe472513c0ce59/Cortez_Base_Game-Bnet_Game-Card_Feature-960x540.jpg?imwidth=928&imdensity=1--1--gkw1n.jpg?tr=w-1600,c-at_max")
+      center center no-repeat;
+    background-size: 300px;
+  }
+  .cartao1:hover {
+    background: url("https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/bltd31831eda9199937/62abc0df5cbe472513c0ce59/Cortez_Base_Game-Bnet_Game-Card_Feature-960x540.jpg?imwidth=928&imdensity=1--1--gkw1n.jpg?tr=w-1600,c-at_max")
+      left center no-repeat;
+    background-size: 600px;
+  }
+  .cartao1:hover h2 {
+    opacity: 1;
+  }
+  .cartao1:hover .fa {
+    opacity: 1;
+  }
+  .cartao2 {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnwitzq0ZIdAtjabjl6h2-XBxx1vsxkiRLxfxCKdYrFgwAzpKEj7esPz7q3b3tQZS6hUE&usqp=CAU--1--67ntb.jpg?tr=w-1600,c-at_max")
+      center center no-repeat;
+    background-size: 300px;
+  }
+  .cartao2:hover {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnwitzq0ZIdAtjabjl6h2-XBxx1vsxkiRLxfxCKdYrFgwAzpKEj7esPz7q3b3tQZS6hUE&usqp=CAU--1--67ntb.jpg?tr=w-1600,c-at_max")
+      left center no-repeat;
+    background-size: 600px;
+  }
+  .cartao2:hover h2 {
+    opacity: 1;
+  }
+  .cartao2:hover .fa {
+    opacity: 1;
+  }
+  h2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  .fa {
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  .caixa__icones {
+    position: absolute;
+    fill: #fff;
+    color: #fff;
+    height: 130px;
+    bottom: 10px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+
+  @media screen and (max-width:3000px) {
+
+    main {
+      flex-direction: column;
+      margin-left: 10px;
+      
+      
+    }
+    
+  }
